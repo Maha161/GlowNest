@@ -114,10 +114,10 @@ GlowNest/
 ├── CSS/
 │ └── style.css # Stylesheet
 ├── images/
-│ └── _.jpg / _.ico
+│ └── _.jpg / _.ico # Project images and icons
 ├── Js/
-│ └── index.js #
-└── README.md # This file
+│ └── index.js # JavaScript file
+└── README.md # Project documentation
 
 ---
 
