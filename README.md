@@ -107,6 +107,7 @@ font-family: "Rubik", sans-serif;
 
 ### 📁 Folder Structure
 
+```
 GlowNest/
 ├── index.html # Homepage
 ├── login.html # Login page
@@ -118,6 +119,7 @@ GlowNest/
 ├── Js/
 │ └── index.js # JavaScript file
 └── README.md # Project documentation
+```
 
 ---
 
