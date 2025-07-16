@@ -1,102 +1,73 @@
-# 🍞 Engage Bakery | Family-Owned Bakery Website
+# ✨ GlowNest | Elegant Skincare & Beauty Products Website
 
-**Engage Bakery** is a clean, elegant, and responsive website for a family-owned bakery business. It showcases who they are, what they offer, and how customers can get in touch. Designed with warmth and clarity, this site reflects the charm of a traditional bakery with a modern touch.
+**GlowNest** is a modern and visually calming e-commerce website designed for skincare and beauty lovers. With a gentle color palette and user-friendly experience, visitors can explore bestsellers, discover features, and register or log in seamlessly.
 
 ---
 
 ## 🌍 Project Overview
 
-This project includes:
+This website includes:
 
-- 🏠 A welcoming **hero section** with headline and call-to-action
-- 👨‍👩‍👧‍👦 A **Who We Are** section introducing the bakery
-- 🧁 A **Baking Products** section showing top items
-- 📍 A **Location** section with text and image
-- 📞 A **Contact Information** section with map
-- 🦶 A **Footer** with 4 columns and social media icons
+- 🏠 A hero homepage with a welcoming message
+- 🌟 A features section highlighting key strengths
+- 🛍️ A bestsellers section with product cards
+- 🔐 Login & Signup pages with form styling
+- 📞 A custom-designed footer with contact and social info
 
-Built with **HTML5 + CSS3**, using responsive layout techniques and visual overlays for modern aesthetics.
+All built using **classic layout techniques** (`inline-block`, `table-cell`) without relying on CSS Grid or Flexbox.
 
 ---
 
 ## ✨ Features
 
-### 🔝 Navigation Bar
+### 🧭 Navigation Bar
 
-- Logo on the left
-- Navigation links:
+- Logo
+- Includes links to:
   - Home
-  - About
-  - Our Offer
-  - Gallery
-  - Blog
-  - Contact
-- Styled with hover animations
+  - Features
+  - Best Sellers
+  - Login / Signup Icons
+- Font Awesome icons for better visuals
 
----
+### 🏠 Home Section
 
-### 🏠 Hero Section
+- Hero background image
+- Welcome text + CTA button
+- Modern typography & color palette
 
-- Full-screen background image
-- Overlay to darken image for better text contrast
-- Welcome message and large heading
-- Two styled buttons:
-  - Learn More
-  - Contact Us
+### 🔥 Features Section
 
----
-
-### 👥 Who We Are
-
-- Two-column layout:
-  - Left: Image
-  - Right: Text + List of features with icons
-- Informative paragraph about the bakery
-- Styled Font Awesome icons
-
----
-
-### 🍰 Our Baking
-
-- Three product cards
-- Each card includes:
-  - Product image
+- Left-side image & right-side list
+- Each feature includes:
+  - Icon
   - Title
   - Short description
-- Responsive layout and hover styles
 
----
+### 🛍️ Bestsellers Section
 
-### 📌 Our Location
+- Cards display:
+  - Product image
+  - Title
+  - ★★★★★ rating
+  - Favorite 🖤 and Add to Cart 🛒 icons
 
-- Two-column section
-  - Left: Text about the bakery's location
-  - Right: Image
-- Clean, professional layout
+### 🔐 Login & Signup Pages
 
----
+- Dual-pane layout with:
+  - Form on one side
+  - Themed image background
+- Styled inputs, hover buttons, and social icons
 
-### 📞 Contact Information
+### 📞 Footer
 
-- Title and description
-- Unordered list with contact info and icons
-- Google Maps iframe with styled overlay
-- Styled section background and spacing
-
----
-
-### 🦶 Footer
-
-- Dark-themed footer with 4 columns:
-  - About Us
-  - Why We Are Special
+- 4 columns:
+  - About PizzaMania
+  - Why Choose Us
   - Opening Hours
-  - Contact Details (with background map image and dark overlay)
-- Social media icons:
-  - Facebook
-  - Google+
-  - LinkedIn
-  - Twitter
+  - Contact Info
+- Social media icons & branding
+- Dark background with soft text color
 
 ---
 
@@ -104,25 +75,23 @@ Built with **HTML5 + CSS3**, using responsive layout techniques and visual overl
 
 ### 🎨 Colors
 
-| Variable           | Color     | Description                 |
-| ------------------ | --------- | --------------------------- |
-| `--main-bg`        | `#f8f8f8` | Main section background     |
-| `--accent-color`   | `#8e7754` | Accent (button/hover/icons) |
-| `--footer-bg`      | `#403d38` | Upper footer background     |
-| `--footer-dark-bg` | `#353330` | Bottom footer background    |
-| `--white`          | `#ffffff` | White                       |
-| `--light-gray`     | `#969696` | Text in footer              |
-| `--hover-color`    | `#e0c690` | Hover link color            |
-| `--heading-color`  | `#303030` | Heading text                |
-| `--text-color`     | `#686868` | Main paragraph text         |
+| Variable        | Color     | Description        |
+| --------------- | --------- | ------------------ |
+| `--main-bg`     | `#FCF5E6` | Website background |
+| `--hover-bg`    | `#2f2f2f` | Dark hover color   |
+| `--white-color` | `#ffffff` | White              |
+| `--text-color`  | `#3e3e3e` | Main text color    |
+| `--nav-bg`      | `#EAE4D5` | Navbar background  |
+| `--footer-text` | `#cccccc` | Footer text color  |
 
-### 🔤 Fonts
+### 🔤 Typography
 
-Google Fonts:
+Recommended font from Google Fonts:  
+**[Rubik](https://fonts.google.com/specimen/Rubik)**
 
 ```css
-font-family: "Alegreya", serif;
-font-family: "Alegreya Sans", sans-serif;
+font-family: "Rubik", sans-serif;
+```
 
 ---
 
@@ -133,15 +102,16 @@ font-family: "Alegreya Sans", sans-serif;
 | **HTML5**        | Webpage structure                     |
 | **CSS3**         | Styling and responsive layout         |
 | **Font Awesome** | Icons for features, nav, footer, etc. |
-| **Google Fonts** | Custom Font                           |
+
 ---
 
 ### 📁 Folder Structure
 
 ```
-
 GlowNest/
 ├── index.html # Homepage
+├── login.html # Login page
+├── signup.html # Signup page
 ├── CSS/
 │ └── style.css # Stylesheet
 ├── images/
@@ -149,7 +119,6 @@ GlowNest/
 ├── Js/
 │ └── index.js # JavaScript file
 └── README.md # Project documentation
-
 ```
 
 ---
@@ -166,10 +135,9 @@ GlowNest/
 
 ## 🙋‍♀️ Author
 
-**👩‍💻 Maha Ebrahim**
+**👩‍💻 Maha Ebrahim**  
 _Frontend Developer_
 
 📧 [mahaebrahiim4@gmail.com](mailto:mahaebrahiim4@gmail.com)
 
 ---
-```
